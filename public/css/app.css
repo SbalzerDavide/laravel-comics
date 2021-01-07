@@ -6219,3 +6219,21 @@ header .nav .menu {
 .hero .poster img {
   display: block;
 }
+
+.comic-page .line {
+  background-color: #0282f9;
+  height: 80px;
+}
+.comic-page .info {
+  display: flex;
+  padding: 50px 0;
+}
+.comic-page .info .description {
+  flex-basis: 70%;
+}
+.comic-page .info .adv {
+  flex-basis: 30%;
+}
+.comic-page h2 {
+  color: #003f5e;
+}

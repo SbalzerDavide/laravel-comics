@@ -1,0 +1,19 @@
+.comic-page{
+    .line{
+        background-color: $primary-color;
+        height: 80px;
+    }
+    .info{
+        display: flex;
+        padding: 50px 0;
+        .description{
+            flex-basis: 70%;
+        }
+        .adv{
+            flex-basis: 30%;
+        }
+    }
+    h2{
+        color: $secondary-text;
+    }
+}
