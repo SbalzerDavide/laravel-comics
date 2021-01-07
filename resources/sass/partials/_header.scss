@@ -1,0 +1,18 @@
+header{
+    .nav{
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        nav{
+            flex-grow: 1;
+        }
+        .menu{
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            font-size: 18px;
+            font-weight: 800;
+        }
+    };
+}

@@ -1,0 +1,9 @@
+.comics{
+    margin-top: 50px;
+    background-color: $primary-background;
+    padding: 10px 30px;
+    .comics-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
