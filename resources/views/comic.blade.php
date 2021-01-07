@@ -13,6 +13,7 @@
     <div class="container info">
         <div class="description">
             <h2>{{ $comic['title'] }}</h2>
+            <div class="text">{!! $comic['body'] !!}</div>
 
         </div>
         <div class="adv">
