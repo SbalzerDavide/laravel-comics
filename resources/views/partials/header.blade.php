@@ -29,6 +29,9 @@
                     <a href="#">videos</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
 
     </div>

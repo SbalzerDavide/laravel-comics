@@ -4,6 +4,8 @@
 
     @include('partials.hero')
 
+    <div class="line"></div>
+
     <section class="comics">
         <div class="container">
             <div class="comics-list">

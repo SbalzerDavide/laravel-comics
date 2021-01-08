@@ -14,5 +14,27 @@ header{
             font-size: 18px;
             font-weight: 800;
         }
+        .hamburger{
+            display: none;
+            font-size: 40px;
+            padding: 20px;
+            cursor: pointer;
+        }
     };
+}
+
+@media screen and (max-width: 768px){
+    header{
+        .nav{
+            flex-direction: column;
+            padding: 20px;
+            .menu{
+                display: none;
+            }
+            .hamburger{
+                display: block;
+                text-align: center;
+            }
+        }
+    }
 }
