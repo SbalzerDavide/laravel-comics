@@ -21,7 +21,6 @@ class comicController extends Controller
         //     }
         // };
 
-
         foreach ($comics as $item){
             $titleSlug = Str::slug($item['title'], '-');
             if ($titleSlug == $slug){
@@ -33,9 +32,6 @@ class comicController extends Controller
         if (empty($comic)){
             abort(404);
         };
-
-
-
 
         return view('comic', compact('comic'));
     }

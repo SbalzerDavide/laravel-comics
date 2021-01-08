@@ -6094,6 +6094,23 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+/*!
+ * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6199,6 +6216,65 @@ header .nav .menu {
   max-width: 60px;
 }
 
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  padding: 40px 0;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .map {
+  flex-basis: 60%;
+}
+footer .map .columns {
+  display: flex;
+  margin-bottom: 20px;
+}
+footer .map .columns > div {
+  flex-basis: 30%;
+}
+footer .map h3 {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 15px 0;
+}
+footer .map a {
+  color: #929292;
+  line-height: 1.8em;
+  transition: color 0.3s;
+}
+footer .map a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer .map .rights {
+  color: #929292;
+}
+footer .map .rights a {
+  color: #0282f9;
+}
+footer .logo {
+  flex-basis: 40%;
+}
+
+.bottom {
+  background-color: #464646;
+}
+.bottom .social {
+  padding: 20px 0;
+  text-align: right;
+}
+.bottom .social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.bottom i {
+  font-size: 40px;
+  color: #929292;
+}
+
 .hero {
   height: 390px;
   background-image: url("../images/bg-hero-home.jpg");
@@ -6230,9 +6306,23 @@ header .nav .menu {
 }
 .comic-page .info .description {
   flex-basis: 70%;
+  padding-right: 30px;
+}
+.comic-page .info .description .price {
+  background-color: #55ba59;
+  padding: 20px;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+.comic-page .info .description .price span {
+  color: #fff;
 }
 .comic-page .info .adv {
   flex-basis: 30%;
+}
+.comic-page .info .adv h4 {
+  margin-bottom: 10px;
+  text-align: right;
 }
 .comic-page h2 {
   color: #003f5e;

@@ -1,6 +1,7 @@
 //fontawesome
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 
 //general
 @import 'partials/vars';
@@ -9,6 +10,7 @@
 //section
 @import 'partials/header';
 @import 'partials/home';
+@import 'partials/footer';
 @import 'partials/hero';
 @import 'partials/comic';
 @import 'partials/error';

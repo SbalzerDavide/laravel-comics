@@ -16,11 +16,7 @@ class HomeController extends Controller
             $slug = Str::slug($item['title'], '-');
             $comics[$key]['slug'] = $slug;
         };
-
-
-
-
-
+        
         return view('home', compact('comics'));
     }
 

@@ -13,10 +13,14 @@
     <div class="container info">
         <div class="description">
             <h2>{{ $comic['title'] }}</h2>
+            <div class="price">
+                U.S. Price: <span>${{ $comic['price'] }}</span>
+            </div>
             <div class="text">{!! $comic['body'] !!}</div>
 
         </div>
         <div class="adv">
+            <h4>ADVERTISEMENT</h4>
             <img src="{{ asset('images/adv.png') }}" alt="">
         </div>
     </div>

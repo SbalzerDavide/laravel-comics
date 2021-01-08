@@ -8,9 +8,24 @@
         padding: 50px 0;
         .description{
             flex-basis: 70%;
+            padding-right: 30px;
+            .price{
+                background-color: $price;
+                padding: 20px;
+                margin: 20px 0;
+                color: rgba($white, .7);
+                span{
+                    color: $white;
+                }
+
+            }
         }
         .adv{
             flex-basis: 30%;
+            h4{
+                margin-bottom: 10px;
+                text-align: right;
+            }
         }
     }
     h2{
